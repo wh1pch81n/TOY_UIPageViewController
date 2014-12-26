@@ -38,6 +38,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)dealloc {
+    NSLog(@"Deallocated content view: %d:%@", self.pageIndex, self.titleText);
+}
+
 /*
 #pragma mark - Navigation
 
